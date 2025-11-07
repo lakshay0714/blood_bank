@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(rgba(220, 53, 69, 0.8), rgba(220, 53, 69, 0.8)),
+              url('https://img.freepik.com/free-photo/blood-donation-concept-with-heart_23-2148311752.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
